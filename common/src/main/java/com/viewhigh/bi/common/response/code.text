@@ -1,0 +1,10 @@
+以下为code码含义
+
+200：响应成功
+
+300：DataSrcTypeRepository 对象未创建~空指针异常
+400：参数传递不完整
+410：没有实现抽象类DataSourceReadStrategy的抽象方法getDataSourceInfo，在使用动态数据源时该方法用于获取动态数据源的信息
+
+99998：抛出的BIException但没有定义异常信息
+99999：程序本身抛出的未处理异常
